@@ -1,0 +1,86 @@
+/* style.css */
+
+body {
+  background-color: #1a1a1a; /* dark background for horror vibe */
+  color: #e0e0e0;            /* light grey text for readability */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav {
+  background-color: #111;
+  overflow: hidden;
+  border-bottom: 2px solid #660000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #bbb;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.topnav a:hover {
+  background-color: #660000;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #990000;
+  color: white;
+}
+
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #ff4c4c;
+  text-shadow: 0 0 5px #ff4c4c;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #ffa6a6;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+a {
+  color: #ff4c4c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #111;
+  border-top: 2px solid #660000;
+  color: #888;
+  margin-top: 60px;
+  font-size: 0.9rem;
+}
